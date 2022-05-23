@@ -150,3 +150,5 @@
 
     <div class="ini" style="height: 10vh"></div>
 </div>
+
+<?php include_once __DIR__ . '/../component/bottom.php';?>
