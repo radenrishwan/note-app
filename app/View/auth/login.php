@@ -9,7 +9,7 @@
                 <h3>Log In.</h3>
                 <p>Silahkan login terlebih dahulu dengan <br>akun yang telah terdaftar.</p>
 
-                <form class="" method="post" action="/login">
+                <form method="post" action="/login">
                     <div class="input-group mb-3">
                         <span class="input-group-text bg-white" id="basic-addon1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"

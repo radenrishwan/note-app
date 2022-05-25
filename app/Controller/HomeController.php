@@ -76,7 +76,7 @@ class HomeController
 
             $this->scheduleService->create($schedule);
 
-            View::redirect('/#jadwal');
+            View::redirect('/a#jadwal');
         } catch (Exception $e) {
             throw new Exception($e->getMessage());
         }
@@ -164,9 +164,8 @@ class HomeController
         $id = $_GET['id'];
 
         try {
-//            $this->noteService->delete($id);
-            var_dump($id);
-//            View::redirect('/#catatan');
+            $this->noteService->delete($id);
+            View::redirect('/#catatan');
         } catch (Exception $e) {
             throw new Exception($e->getMessage());
         }
