@@ -1,5 +1,6 @@
 # Note APP
-Aplikasi note menggunakan php native
+Aplikasi note menggunakan php native. untuk penjelasan mengenai projek dapat diakases melalui link
+[youtube ini](https://youtu.be/_EAM18PkMiU)
 
 ## Requirements
 - PHP 8.1
@@ -9,7 +10,6 @@ Aplikasi note menggunakan php native
 - Download project menggunakan github atau download langsung
 - Install composer
 - Install PHP 8.1
-
 
 ## Usage
 - silahkan buat database baru dengan nama `uas`
